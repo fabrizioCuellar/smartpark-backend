@@ -28,7 +28,7 @@ public class Reserva {
 
 
     @ManyToOne
-    @JoinColumn(name = "zona_aparcamiento_id")
+    @JoinColumn(name = "estacionamiento_id")
     private Estacionamiento estacionamiento;
 
 
